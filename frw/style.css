@@ -52,3 +52,12 @@ footer {
   justify-content: center;
   margin: 4px;
 }
+button {
+  border-radius: 10px 10px 10px 10px;
+}
+input {
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+  width: 15rem;
+  height: 2rem;
+}

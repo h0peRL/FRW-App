@@ -6,7 +6,7 @@ let numInputs = 1;
 function addInput() {
   numInputs++;
   const newInput = `<div id="newinputadd">
-    <input type="text" id="inputField${numInputs}" list="options" placeholder="Text">
+    <input type="text" id="inputField${numInputs}"  placeholder="Text">
     :
     <input type="text" id="inputField${numInputs}" list="options" placeholder="Soll">
     /(an)
@@ -19,7 +19,7 @@ function addInput() {
 const inputform = `
 <div id="button"> <button onclick="addInput()">Weiteres Feld hinzufügen</button> </div>
 <div id="inputadd">
-<input type="text" id="inputField1" list="options" placeholder="Text">
+<input type="text" id="inputField1" placeholder="Text">
 :
   <input type="text" id="inputField1" list="options" placeholder="Soll">
 /(an)
@@ -184,3 +184,4 @@ const inputform = `
 
 const Page = document.getElementById("inputfield");
 Page.innerHTML = inputform;
+function generatePDF() {}
