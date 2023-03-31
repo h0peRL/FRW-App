@@ -184,4 +184,3 @@ const inputform = `
 
 const Page = document.getElementById("inputfield");
 Page.innerHTML = inputform;
-function generatePDF() {}
