@@ -96,10 +96,45 @@ FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das 
 | 8      | Muss      | Funktional                  | Es wird ein Image für die App erstellt                                    |
 | 9      | Muss      | Funktional                  | Das Apache httpd wird im Image verwendet                                  |
 | 10     | Muss      | Funktional                  | Es wird ein Container mit dem Image erstellt.                             |
-| 11     | Muss      | Funktional                  | Das Image ist auf DockerHub herunterzulade                                |
+| 11     | Muss      | Funktional                  | Das Image ist auf DockerHub herunterzuladen                               |
 
 ### 1.4 Diagramme
 
 Keine
 
 ## 2. Planen
+
+### 2.1 Zeitplan
+
+| **Nummer** | **Frist** | **Beschreibung**   | **Zeit (geplant)** |
+| :--------- | --------- | :----------------- | ------------------ |
+| 1          | 3.2.2023  | Anforderung Nr. 1  | 5 Min              |
+| 2          | 3.2.2023  | Anforderung Nr. 2  | 5 Min              |
+| 3          | 3.2.2023  | Anforderung Nr. 3  | 5 Min              |
+| 4          | 3.2.2023  | Anforderung Nr. 4  | 60 Min             |
+| 5          | 3.2.2023  | Anforderung Nr. 5  | 30 Min             |
+| 6          | 3.2.2023  | Anforderung Nr. 6  | 160 Min            |
+| 7          | 3.2.2023  | Anforderung Nr. 7  | 60 Min             |
+| 8          | 3.2.2023  | Anforderung Nr. 8  | 60 Min             |
+| 9          | 3.2.2023  | Anforderung Nr. 9  | 60 Min             |
+| 10         | 3.2.2023  | Anforderung Nr. 10 | 90 Min             |
+| 11         | 3.2.2023  | Anforderung Nr. 11 | 20 Min             |
+
+### 2.2 Testfälle
+
+| **Nummer** | **Datum**  | **Voraussetzungen**                                          | **Eingabe**                                                                     | **Erwartete Ausgabe**                                                             |
+| :--------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1          | 24.03.2023 | VSCode offen, HTML geöffnet                                  | Anschauen des HTMLS, ist header vorhanden?                                      | Header ist vorhanden                                                              |
+| 2          | 24.03.2023 | VSCode offen, HTML geöffnet                                  | Anschauen des HTMLS, footer vorhanden?                                          | Footer ist vorhanden                                                              |
+| 3          | 24.03.2023 | VSCode offen, HTML geöffnet                                  | Anschauen des HTMLS, ist dieser div vorhanden?                                  | div mit id app ist vorhanden                                                      |
+| 4.1        | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Text bei Text eingeben                                                          | individualisierter Text ist aufgetreten                                           |
+| 4.2        | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Text bei Soll eingeben                                                          | individualisierter Text ist aufgetreten                                           |
+| 4.3        | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Text bei Haben eingeben                                                         | individualisierter Text ist aufgetreten                                           |
+| 4.4        | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Zahl bei Betrag eingeben                                                        | individualisierter Betrag ist aufgetreten                                         |
+| 5          | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Auf Soll oder Haben clicken                                                     | Verschiedene Konten werden angezeigt.                                             |
+| 6          | 24.03.2023 | VSCode offen, Live Server gestartet oder Container ist offen | Auf den generate PDF button clicken                                             | PDF von HTML Seite wird erstellt                                                  |
+| 7          | 24.03.2023 | VSCode offen oder Explorer,                                  | Dockerfile öffnen                                                               | Inhalt ist erschienen                                                             |
+| 8          | 24.03.2023 | Bash oder andere Shell offen                                 | Image Pullen oder image erstellen, dann docker images in shell eingeben         | Eigenes Image wurde erstellt                                                      |
+|            | 24.03.2023 | -                                                            | -                                                                               | -                                                                                 |
+|            | 24.03.2023 | Bash oder andere Shell offen                                 | Docker starten und docker run -d -p 8080:80 --name Name h0perl/frw-app eingeben | Docker Container wird gestartet                                                   |
+|            | 24.03.2023 | DockerHUB ist Offen                                          | nach h0perl/frw-app suchen                                                      | Das Image sollte erscheinen und mann kan es pullen mit docker pull h0perl/frw-app |
