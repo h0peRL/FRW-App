@@ -4,14 +4,45 @@ FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das 
 
 Bei diesem Projekt habe ich mich ein bisschen auf die App konzentriert, aber hauptsächlich war es meiin Ziel, mein erstes Docker Image mit [Apache httpd](https://hub.docker.com/_/httpd) zu erstellen und auf DockerHub zu posten.
 
-### Einrichten der Entwicklungsumbgebung
+## IPERKA
+
+### Informieren
+
+- [Einleitung](#frw-app)
+- [Lokale Entwicklungsumgebung einrichten](#einrichten-der-entwicklungsumbgebung)
+
+### Planen
+
+- [Einleitung](#frw-app)
+- [Zeitplan](#21-zeitplan)
+- [Testfälle](#22-testfälle)
+
+### Entscheiden
+
+- [Einleitung](#frw-app)
+
+### Realisieren
+
+- [Realisierungsplan](#41-realisierungsplan)
+
+### Kontrollieren
+
+- [Testfälle](#22-testfälle)
+- [Testprotokoll und Testfazit](#51-testprotokoll-und-testfazit)
+
+### Auswerten
+
+- [Testbericht / Fazit](#51-testprotokoll-und-testfazit)
+- [Schlusswort / allg. Fazit](#61-bericht--fazit)
+
+## Einrichten der Entwicklungsumbgebung
 
 Hier gibt es grob 2 Einteilungen:
 
 - Entwicklungsumbgebung einrichten für das eigene Entwickeln.
 - Einrichten von dem fertigen Docker-Container auf dem Gerät.
 
-#### Entwicklungsumbgebung einrichten für das eigene Entwickeln
+### Entwicklungsumbgebung einrichten für das eigene Entwickeln
 
 Dafür kann man dieses Repository einfach forken oder clonen.
 
@@ -38,7 +69,7 @@ cd gewünschtes/directory
 code .
 ```
 
-#### Einrichten von dem fertigen Docker-Container auf dem Gerät
+### Einrichten von dem fertigen Docker-Container auf dem Gerät
 
 Voraussetzung dafür ist, dass man docker bereits heruntergeladen hat und das man docker mit der Commandozeile interagieren kann
 
@@ -58,7 +89,7 @@ docker run -d -p 8080:80 --name eigenerName h0perl/frw-app
 
 # Dokumentation
 
-## 1. Informieren
+# 1. Informieren
 
 | Datum      | Version                   | Änderung                                     |
 | :--------- | ------------------------- | -------------------------------------------- |
@@ -70,11 +101,11 @@ docker run -d -p 8080:80 --name eigenerName h0perl/frw-app
 | 24.03.2023 | 0.0.6                     | Fertigstelllen der Dokumentation             |
 | 31.02.2023 | 1.0.0<br />Finale Version | Finaler Schliff, letzte Änderungen vornehmen |
 
-### 1.1 Ihr Projekt
+# 1.1 Ihr Projekt
 
 FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das Fach an der Kanti Finanzen und Rechnungswesen online Buchungssätze bilden kann. Wenn man sie nicht immer von Hand aufschreiben will, dann nehme man dieses Tool um die Buchungssätze zu bilden.
 
-### 1.2 Quellen
+# 1.2 Quellen
 
 [Stackoverflow](https://stackoverflow.com)
 
@@ -82,7 +113,7 @@ FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das 
 
 [jsPDF](https://artskydj.github.io/jsPDF/docs/jsPDF.html)
 
-### 1.3 Anforderungen
+# 1.3 Anforderungen
 
 | Nummer | Muss/Kann | Funktional? Qualität? Rand? | Beschreibung                                                              |
 | ------ | --------- | :-------------------------- | :------------------------------------------------------------------------ |
@@ -98,13 +129,13 @@ FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das 
 | 10     | Muss      | Funktional                  | Es wird ein Container mit dem Image erstellt.                             |
 | 11     | Muss      | Funktional                  | Das Image ist auf DockerHub herunterzuladen                               |
 
-### 1.4 Diagramme
+# 1.4 Diagramme
 
 Keine
 
-## 2. Planen
+# 2. Planen
 
-### 2.1 Zeitplan
+# 2.1 Zeitplan
 
 | **Nummer** | **Frist** | **Beschreibung**   | **Zeit (geplant)** |
 | :--------- | --------- | :----------------- | ------------------ |
@@ -120,7 +151,7 @@ Keine
 | 10         | 3.2.2023  | Anforderung Nr. 10 | 90 Min             |
 | 11         | 3.2.2023  | Anforderung Nr. 11 | 20 Min             |
 
-### 2.2 Testfälle
+# 2.2 Testfälle
 
 | **Nummer** | **Datum**  | **Voraussetzungen**                                          | **Eingabe**                                                                     | **Erwartete Ausgabe**                                                             |
 | :--------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -138,3 +169,37 @@ Keine
 |            | 24.03.2023 | -                                                            | -                                                                               | -                                                                                 |
 |            | 24.03.2023 | Bash oder andere Shell offen                                 | Docker starten und docker run -d -p 8080:80 --name Name h0perl/frw-app eingeben | Docker Container wird gestartet                                                   |
 |            | 24.03.2023 | DockerHUB ist Offen                                          | nach h0perl/frw-app suchen                                                      | Das Image sollte erscheinen und mann kan es pullen mit docker pull h0perl/frw-app |
+
+# 3. Entscheiden
+
+[Einleitung](#frw-app)
+
+# 4. Realisieren
+
+# 4.1 Realisierungsplan
+
+| **Nummer** | **Datum** | **Beschreibung**                                                      | **Zeit (geplant)** | **Zeit (effektiv)** |
+| ---------- | --------- | --------------------------------------------------------------------- | ------------------ | ------------------- |
+| 1          | 13.1.2023 | Anforderung komplett implementiert(Nummer entspricht der Anforderung) | 5 Min              | 10 Min              |
+| 2          | 13.1.2023 | Anforderung komplett implementiert                                    | 5 Min              | 5 Min               |
+| 3          | 13.1.2023 | Anforderung komplett implementiert                                    | 5 Min              | 40 Min              |
+| 4          | 13.1.2023 | Anforderung komplett implementiert                                    | 60 Min             | 50 Min              |
+| 5          | 20.1.2023 | Anforderung komplett implementiert                                    | 30 Min             | 15 Min              |
+| 6          | 20.1.2023 | Anforderung komplett implementiert                                    | 160 Min            | 15 Min              |
+| 7          | 20.1.2023 | Anforderung komplett implementiert                                    | 60 Min             | 15 Min              |
+| 8          | 20.1.2023 | Anforderung komplett implementiert                                    | 60 Min             | 20 Min              |
+| 9          | 20.1.2023 | Anforderung komplett implementiert                                    | 60 Min             | 15 Min              |
+| 10         | 27.1.2023 | Anforderung komplett implementiert                                    | 90 Min             | 120 Min             |
+| 11         | 27.1.2023 | Anforderung komplett implementiert                                    | 20 Min             | 90 Min              |
+
+Verlinkung zu den Dateien
+
+- [Dateien ](../frw)
+
+# 5. Kontrollieren
+
+# 5.1 Testprotokoll und Testfazit
+
+# 6. Auswerten
+
+# 6.1 Bericht / Fazit
