@@ -194,7 +194,7 @@ Keine
 
 Verlinkung zu den Dateien
 
-- [Dateien ](../frw)
+- [Dateien ](./frw)
 
 # 5. Kontrollieren
 
