@@ -52,7 +52,7 @@ Dafür einfach oben beim Repo auf "Fork" clicken und dann
 // bei dem einfachen Clonen
 git clone https://github.com/h0peRL/FRW-App
 ---
-beim geforten Repository
+beim geforkten Repository
 git clone <URL>
 
 
