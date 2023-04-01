@@ -2,7 +2,7 @@
 
 FRW-App ist eine App, mit standard HTML und mit vanilla JS, in der man für das Fach an der Kanti Finanzen und Rechnungswesen online Buchungssätze bilden kann. Wenn man sie nicht immer von Hand aufschreiben will, dann nehme man dieses Tool um die Buchungssätze zu bilden.
 
-Bei diesem Projekt habe ich mich ein bisschen auf die App konzentriert, aber hauptsächlich war es meiin Ziel, mein erstes Docker Image mit [Apache httpd](https://hub.docker.com/_/httpd) zu erstellen und auf DockerHub zu posten.
+Bei diesem Projekt habe ich mich ein bisschen auf die App konzentriert, aber hauptsächlich war es mein Ziel, mein erstes Docker Image mit [Apache httpd](https://hub.docker.com/_/httpd) zu erstellen und auf DockerHub zu posten.
 
 ## IPERKA
 
