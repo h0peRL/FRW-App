@@ -225,4 +225,4 @@ Es sind alle Testfälle in Ordnung. Es gibt keine grossen Veränderungen oder Ab
 
 # 6.1 Bericht / Fazit
 
-Das Projekt LA1304 im Lernatteilier des 2. Jahres hat eigentlich im Grund und Ganzen gut funktioniert. Ich habe zuerst begonnen die Dokumentation ein bisschen zu erarbeiten, damit ich mich danach wirklich umd die Realisierung kümmern kann. Bei der Realisation gab es dann einen kleinen Haken, das genrate PDF Feature. Ich hatte zuerst gedacht ews sei einfach dieses zu implementieren, doch ich hatte viele Schwierigkeiten dabei. Irgendwie wollte die Library einfach nicht bei mir funktionieren.
+Das Projekt LA1304 im Lernatteilier des 2. Jahres hat eigentlich im Grund und Ganzen gut funktioniert. Ich habe zuerst begonnen die Dokumentation ein bisschen zu erarbeiten, damit ich mich danach wirklich umd die Realisierung kümmern kann. Bei der Realisation gab es dann einen kleinen Haken, das generate PDF Feature. Ich hatte zuerst gedacht, es sei einfach dieses zu implementieren, doch ich hatte viele Schwierigkeiten dabei. Irgendwie wollte die Library einfach nicht bei mir funktionieren.
