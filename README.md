@@ -200,6 +200,29 @@ Verlinkung zu den Dateien
 
 # 5.1 Testprotokoll und Testfazit
 
+| **Nummer** | **Datum** | **Resultat**                   | **Durchgeführt** |
+| :--------- | --------- | ------------------------------ | ---------------- |
+| 1          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 2          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 3          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 4.1        | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 4.2        | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 4.3        | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 4.4        | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 5          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 6          | 24.3.2023 | NOK, wurde nicht implementiert | Nico Delvecchio  |
+| 7          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 8          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 9          | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 10         | 24.3.2023 | OK                             | Nico Delvecchio  |
+| 11         | 24.3.2023 | OK                             | Nico Delvecchio  |
+
+## Testfazit
+
+Es sind alle Testfälle in Ordnung. Es gibt keine grossen Veränderungen oder Abweichungen in den Resultaten. Ausser bei dem 6. Testfall oder bei der 6. Anforderung war das Testergebnis nicht in Ordnung, weil dieses Feature nicht ein gebaut wurde.
+
 # 6. Auswerten
 
 # 6.1 Bericht / Fazit
+
+Das Projekt LA1304 im Lernatteilier des 2. Jahres hat eigentlich im Grund und Ganzen gut funktioniert. Ich habe zuerst begonnen die Dokumentation ein bisschen zu erarbeiten, damit ich mich danach wirklich umd die Realisierung kümmern kann. Bei der Realisation gab es dann einen kleinen Haken, das genrate PDF Feature. Ich hatte zuerst gedacht ews sei einfach dieses zu implementieren, doch ich hatte viele Schwierigkeiten dabei. Irgendwie wollte die Library einfach nicht bei mir funktionieren.
